@@ -16,7 +16,7 @@ class bitform(object):
         l4.grid(row=1, column=1)
         l5=Label(window, text="bits")
         l5.grid(row=1, column=2)
-        l6=Label(window, text="Bits in reverse decimal")
+        l6=Label(window, text="Total bit limt")
         l6.grid(row=3, column=1)
         l7=Label(window, text="                                         ")
         l7.grid(row=5, column=0)
@@ -43,6 +43,10 @@ class bitform(object):
             bit_count=0
             while(num>=2):
                 num=num/2
+                bit_count=bit_count+1
+            if num ==1:
+                pass
+            else:
                 bit_count=bit_count+1
             self.t1.delete("1.0", END)
             self.t1.insert(END,bit_count)

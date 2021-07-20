@@ -5,7 +5,7 @@ block_cipher = None
 
 
 a = Analysis(['bit_it.py'],
-             pathex=['C:\\Users\\Muhammad Zubair\\Documents\\Python\\ju\\blocker\\graphucaluserinterface'],
+             pathex=['C:\\Users\\Muhammad Zubair\\Documents\\Python\\ju\\blocker\\graphucaluserinterface\\Numbers2bit'],
              binaries=[],
              datas=[],
              hiddenimports=[],
