@@ -4,4 +4,4 @@ This application helps you find how many bits it takes to show your decimal numb
 
 # To use
 
-Access bit_it.exe program to run it on your desktop
+Access bit_it.exe program in the dist folder to run it on your desktop.
